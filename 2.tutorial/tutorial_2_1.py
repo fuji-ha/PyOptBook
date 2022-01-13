@@ -1,3 +1,6 @@
+# 第2章 Python数理最適化チュートリアル¶
+# 2.1 連立一次方程式をPythonの数理最適化ライブラリで解く
+
 import pulp
 
 problem = pulp.LpProblem('SLE', pulp.LpMaximize)

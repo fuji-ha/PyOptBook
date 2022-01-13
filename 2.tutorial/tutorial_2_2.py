@@ -1,3 +1,5 @@
+# 2.2 線形計画問題をPythonの数理最適化ライブラリで解く
+
 import pulp
 
 problem = pulp.LpProblem('LP', pulp.LpMaximize)
